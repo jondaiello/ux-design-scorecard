@@ -1,0 +1,42 @@
+
+
+html {}
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.5rem; }
+h4 {}
+
+th, b, strong {
+  font-weight: 900;
+}
+
+
+
+tr {
+   border-bottom: 1px solid darkgray;
+}
+
+tr:last-child {
+   border-bottom: none;
+}
+
+th { background: #f1f1f1; }
+
+td, th {
+  padding: 1em;
+}
+
+input[type="number"] {
+  font-size: 1.25rem;
+  padding: .25em;
+  display: block;
+}
